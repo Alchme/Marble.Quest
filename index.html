@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marble Quest - Roll Through Epic Levels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#7B68EE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Marble Quest">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23ff6b35'/><circle cx='35' cy='35' r='8' fill='%23fff'/></svg>">
+    <meta name="description" content="Marble Quest - Roll through epic platformer levels on Steam. Experience physics-based gameplay, collect power-ups, and conquer challenging obstacles!">
+    <meta name="keywords" content="Marble Quest, platformer, indie game, Steam, physics, rolling, levels, power-ups">
+    <meta name="author" content="Marble Quest Team">
+    <meta name="keywords" content="marble quest, indie game, platformer, physics-based gameplay, steam game, marble rolling, puzzle game, action game">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <link rel="canonical" href="https://marblequest.com/">
+    <meta property="og:title" content="Marble Quest - Roll Through Epic Adventures">
+    <meta property="og:description" content="Experience the ultimate marble platformer where you navigate through challenging levels, collect power-ups, and conquer obstacles as a mighty marble!">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/333/fff?text=Marble+Quest+OG+Image">
+    <meta property="og:url" content="https://marblequest.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%237B68EE'/><circle cx='35' cy='35' r='8' fill='%23fff'/></svg>">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Marble Quest",
+        "description": "Experience the ultimate marble platformer where you navigate through challenging levels, collect power-ups, and conquer obstacles as a mighty marble!",
+        "genre": ["Platform", "Puzzle", "Action"],
+        "publisher": {
+            "@type": "Organization",
+            "name": "Marble Quest Team"
+        },
+        "datePublished": "2024",
+        "operatingSystem": "PC",
+        "applicationCategory": "Game",
+        "offers": {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "PreOrder"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "150"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "When will Marble Quest be released?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Marble Quest is currently in development and we aim to release it on Steam in Q4 2024. Follow us for the latest updates!"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What platforms will it be available on?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Initially launching on PC via Steam, with potential console ports in the future."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How many levels are there?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Over 50 unique levels across different biomes, each with their own challenges and secrets!"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is there multiplayer?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Currently focused on single-player, but we're exploring co-op features for future updates."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Marble Quest</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gameplay">Gameplay</a></li>
+                    <li><a href="#levels">Levels</a></li>
+                    <li><a href="#steam">Steam</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="typing-effect">Roll Through Epic Adventures</h2>
+                <p>Experience the ultimate marble platformer where you navigate through challenging levels, collect power-ups, and conquer obstacles as a mighty marble!</p>
+                <div class="cta-buttons">
+                    <a href="#steam" class="btn primary pulse">Coming Soon on Steam</a>
+                    <a href="#trailer" class="btn secondary">Watch Trailer</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Levels</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10</span>
+                        <span class="stat-label">Power-ups</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Fun</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="marble-container">
+                    <div class="marble"></div>
+                    <div class="sparkles"></div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-item" style="animation-delay: 0s;">🏆</div>
+                    <div class="floating-item" style="animation-delay: 2s;">⚡</div>
+                    <div class="floating-item" style="animation-delay: 4s;">💎</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trailer" class="trailer">
+            <div class="container">
+                <h2>Watch the Epic Trailer</h2>
+                <div class="video-container">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Marble Quest Trailer Thumbnail" loading="lazy">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <iframe width="560" height="315" src="" title="Marble Quest Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="gameplay" class="gameplay">
+            <div class="container">
+                <h2>Gameplay Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-route"></i>
+                        <h3>Dynamic Levels</h3>
+                        <p>Navigate through ever-changing environments filled with traps, jumps, and secrets.</p>
+                        <p class="hover-reveal">Each level adapts to your playstyle, ensuring no two runs are the same!</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Power-Ups</h3>
+                        <p>Collect boosts to increase speed, jump higher, or gain special abilities.</p>
+                        <p class="hover-reveal">Combine multiple power-ups for devastating combo effects.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Challenges</h3>
+                        <p>Test your skills in time trials and boss battles.</p>
+                        <p class="hover-reveal">Compete on global leaderboards and earn exclusive rewards.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-palette"></i>
+                        <h3>Customizable Marble</h3>
+                        <p>Unlock skins and effects to make your marble truly unique.</p>
+                        <p class="hover-reveal">Show off your style with glowing trails and particle effects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="screenshots" class="screenshots">
+            <div class="container">
+                <h2>Screenshots</h2>
+                <div class="screenshot-gallery">
+                    <div class="screenshot-item" data-index="0">
+                        <img src="https://via.placeholder.com/400x225/333/fff?text=Level+1" alt="Level 1 Screenshot" loading="lazy">
+                        <div class="screenshot-overlay">
+                            <h4>Forest Frenzy</h4>
+                        </div>
+                    </div>
+                    <div class="screenshot-item" data-index="1">
+                        <img src="https://via.placeholder.com/400x225/666/fff?text=Level+2" alt="Level 2 Screenshot" loading="lazy">
+                        <div class="screenshot-overlay">
+                            <h4>Desert Dash</h4>
+                        </div>
+                    </div>
+                    <div class="screenshot-item" data-index="2">
+                        <img src="https://via.placeholder.com/400x225/999/fff?text=Level+3" alt="Level 3 Screenshot" loading="lazy">
+                        <div class="screenshot-overlay">
+                            <h4>Space Spin</h4>
+                        </div>
+                    </div>
+                    <div class="screenshot-item" data-index="3">
+                        <img src="https://via.placeholder.com/400x225/ccc/fff?text=Boss+Fight" alt="Boss Fight Screenshot" loading="lazy">
+                        <div class="screenshot-overlay">
+                            <h4>Boss Battle</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="levels" class="levels">
+            <div class="container">
+                <h2>Explore the Levels</h2>
+                <div class="level-showcase">
+                    <div class="level-card">
+                        <img src="https://via.placeholder.com/400x250/666/fff?text=Forest+Level" alt="Forest Level" loading="lazy">
+                        <h3>Enchanted Forest</h3>
+                        <p>Navigate through twisting vines and hidden platforms in this lush environment.</p>
+                        <button class="preview-btn">Preview Level</button>
+                    </div>
+                    <div class="level-card">
+                        <img src="https://via.placeholder.com/400x250/999/fff?text=Desert+Level" alt="Desert Level" loading="lazy">
+                        <h3>Scorching Desert</h3>
+                        <p>Roll across sand dunes and avoid rolling boulders in the heat.</p>
+                        <button class="preview-btn">Preview Level</button>
+                    </div>
+                    <div class="level-card">
+                        <img src="https://via.placeholder.com/400x250/ccc/fff?text=Space+Level" alt="Space Level" loading="lazy">
+                        <h3>Cosmic Void</h3>
+                        <p>Experience zero-gravity challenges in outer space.</p>
+                        <button class="preview-btn">Preview Level</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="steam" class="steam">
+            <div class="container">
+                <h2>Coming Soon on Steam</h2>
+                <p>Marble Quest is currently in development and will be available on Steam soon. Follow us for updates!</p>
+                <div class="wishlist-counter">
+                    <span class="counter-number" data-target="15420">0</span>
+                    <span class="counter-label">Wishlists</span>
+                </div>
+                <div class="steam-links">
+                    <a href="#" class="btn steam-btn"><i class="fab fa-steam"></i> Wishlist on Steam</a>
+                    <a href="#" class="btn social-btn"><i class="fab fa-twitter"></i> Follow on Twitter</a>
+                    <a href="#" class="btn social-btn"><i class="fab fa-discord"></i> Join Discord</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">When will Marble Quest be released?</button>
+                        <div class="faq-answer">
+                            <p>Marble Quest is currently in development and we aim to release it on Steam in Q4 2024. Follow us for the latest updates!</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">What platforms will it be available on?</button>
+                        <div class="faq-answer">
+                            <p>Initially launching on PC via Steam, with potential console ports in the future.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">How many levels are there?</button>
+                        <div class="faq-answer">
+                            <p>Over 50 unique levels across different biomes, each with their own challenges and secrets!</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Is there multiplayer?</button>
+                        <div class="faq-answer">
+                            <p>Currently focused on single-player, but we're exploring co-op features for future updates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <h2>Meet the Team</h2>
+                <p class="team-intro">The creative minds behind Marble Quest</p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">🐺</div>
+                        <h3>Wolf</h3>
+                        <p>Game Concept Developer/Co-Developer</p>
+                        <div class="social-links">
+                            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">💻</div>
+                        <h3>ReelablePenny14</h3>
+                        <p>Lead Programmer</p>
+                        <div class="social-links">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">🎵</div>
+                        <h3>PLUMAS XL</h3>
+                        <p>Lead Soundtrack Design/OST</p>
+                        <div class="social-links">
+                            <a href="#" title="SoundCloud"><i class="fab fa-soundcloud"></i></a>
+                            <a href="#" title="Bandcamp"><i class="fab fa-bandcamp"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">🎨</div>
+                        <h3>Rae</h3>
+                        <p>Marble Texture Designer</p>
+                        <div class="social-links">
+                            <a href="#" title="ArtStation"><i class="fab fa-artstation"></i></a>
+                            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mechanics" class="mechanics">
+            <div class="container">
+                <h2>Game Mechanics Deep Dive</h2>
+                <div class="mechanics-content">
+                    <div class="mechanic-explanation">
+                        <h3>Physics-Based Movement</h3>
+                        <p>Experience realistic marble physics with momentum, friction, and collision detection. Every roll feels authentic and responsive.</p>
+                        <div class="demo-container">
+                            <div class="physics-demo">
+                                <div class="demo-marble"></div>
+                                <div class="demo-track">
+                                    <div class="demo-obstacle"></div>
+                                    <div class="demo-obstacle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mechanic-explanation">
+                        <h3>Dynamic Level Generation</h3>
+                        <p>Levels adapt to your playstyle, becoming more challenging as you progress. No two playthroughs are the same!</p>
+                        <div class="level-generator">
+                            <button class="generate-btn">Generate Random Level</button>
+                            <div class="generated-level"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Get the latest news about Marble Quest development, release dates, and exclusive content!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn primary">Subscribe</button>
+                </form>
+                <p class="privacy-note">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+        </section>
+
+        <section id="presskit" class="presskit">
+            <div class="container">
+                <h2>Press Kit</h2>
+                <p class="press-intro">Everything journalists need to write about Marble Quest - logos, screenshots, facts, and quotes.</p>
+
+                <div class="press-grid">
+                    <div class="press-card">
+                        <div class="card-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <h3>Images & Logos</h3>
+                        <p>High-resolution logos, screenshots, and promotional artwork.</p>
+                        <div class="download-buttons">
+                            <a href="#" class="download-btn" data-type="logo">
+                                <i class="fas fa-download"></i> Logo Pack
+                            </a>
+                            <a href="#" class="download-btn" data-type="screenshots">
+                                <i class="fas fa-download"></i> Screenshots
+                            </a>
+                            <a href="#" class="download-btn" data-type="wallpaper">
+                                <i class="fas fa-download"></i> Wallpapers
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="press-card">
+                        <div class="card-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Game Facts</h3>
+                        <div class="facts-grid">
+                            <div class="fact">
+                                <span class="fact-label">Release:</span>
+                                <span class="fact-value">Q4 2026</span>
+                            </div>
+                            <div class="fact">
+                                <span class="fact-label">Platform:</span>
+                                <span class="fact-value">PC (Steam)</span>
+                            </div>
+                            <div class="fact">
+                                <span class="fact-label">Genre:</span>
+                                <span class="fact-value">Physics Platformer</span>
+                            </div>
+                            <div class="fact">
+                                <span class="fact-label">Levels:</span>
+                                <span class="fact-value">25+</span>
+                            </div>
+                            <div class="fact">
+                                <span class="fact-label">Price:</span>
+                                <span class="fact-value">$4.99</span>
+                            </div>
+                            <div class="fact">
+                                <span class="fact-label">Developer:</span>
+                                <span class="fact-value">Marble Quest Team</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="press-card">
+                        <div class="card-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3>Press Quotes</h3>
+                        <div class="quotes-container">
+                            <blockquote>
+                                "Marble Quest combines precise platforming with physics-based chaos."
+                                <cite>— Alex Chen, Lead Developer</cite>
+                            </blockquote>
+                            <blockquote>
+                                "Every roll tells a story through innovative level design."
+                                <cite>— Sarah Kim, Art Director</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="press-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Press Contact</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <strong>Press Inquiries:</strong>
+                                <a href="mailto:press@marblequest.com">press@marblequest.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Marketing:</strong>
+                                <a href="mailto:marketing@marblequest.com">marketing@marblequest.com</a>
+                            </div>
+                        </div>
+                        <p class="contact-note">Contact us for review codes and additional materials.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2>Latest News</h2>
+                <div class="blog-posts">
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/333/fff?text=Dev+Update+1" alt="Development Update">
+                        </div>
+                        <div class="post-content">
+                            <h3>Development Update #12: Physics Polish</h3>
+                            <p class="post-meta">Posted on October 25, 2024 by Alex Chen</p>
+                            <p>We've been hard at work refining the physics system to make every roll feel just right. The marble now responds more accurately to different surfaces and maintains momentum in the most satisfying way possible.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/666/fff?text=Level+Design" alt="Level Design Showcase">
+                        </div>
+                        <div class="post-content">
+                            <h3>New Level Showcase: Cosmic Void</h3>
+                            <p class="post-meta">Posted on October 20, 2024 by Sarah Kim</p>
+                            <p>Take a look at our latest level design! The Cosmic Void introduces zero-gravity mechanics that will challenge players in entirely new ways. Stars, asteroids, and cosmic phenomena await!</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/999/fff?text=Steam+Page" alt="Steam Page Live">
+                        </div>
+                        <div class="post-content">
+                            <h3>Steam Page Goes Live!</h3>
+                            <p class="post-meta">Posted on October 15, 2024 by Mike Rodriguez</p>
+                            <p>Great news! Our Steam page is now live with wishlist functionality. Add Marble Quest to your wishlist to get notified when we launch, and help us reach our goal!</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="blog-navigation">
+                    <button class="nav-btn prev-btn" disabled><i class="fas fa-chevron-left"></i> Previous</button>
+                    <div class="page-numbers">
+                        <span class="page-number active">1</span>
+                        <span class="page-number">2</span>
+                        <span class="page-number">3</span>
+                    </div>
+                    <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i> Next</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Have questions about Marble Quest? Want to collaborate? We'd love to hear from you!</p>
+                        <div class="contact-details">
+                            <p><i class="fas fa-envelope"></i> hello@marblequest.com</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Austin, TX</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Marble Quest. All rights reserved. Coming to Steam soon.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-progress"></div>
+    <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
